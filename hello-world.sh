@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "hi"
+echo "hi hello "
 echo $person
+echo $person1

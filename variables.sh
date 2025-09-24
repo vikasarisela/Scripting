@@ -1,7 +1,5 @@
-person=$1
-person1=$2
+#/bin/bash
 
-person3="dfdfdfo"
+first_name=Vikas
+echo "Hi $first_naame"
 
-echo "$person"
-echo "$person1"

@@ -14,4 +14,5 @@ echo "all variables passed to the script $*"
 
 leaders=("modi" "putin" "trudo")
 
-echo "$($leaders[@])"
+echo "${leaders[@]}"
+

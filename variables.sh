@@ -7,4 +7,7 @@ echo "hello $sec_name"
 
 DATE=$(date)
 
-echo "print date ${DATE}"
+echo "print date ${DATE}" 
+
+echo "all variables passed to the script $@"
+echo "all variables passed to the script $*"

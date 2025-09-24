@@ -11,3 +11,7 @@ echo "print date ${DATE}"
 
 echo "all variables passed to the script $@"
 echo "all variables passed to the script $*"
+
+leaders=("modi" "putin" "trudo")
+
+echo "$($leaders[@])"

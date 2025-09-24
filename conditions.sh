@@ -2,8 +2,8 @@
 
 number=$1
 
-if temp=$[number % 2] == 0
-echo "even number $temp"
+if [$(($number % 2) -eq 0)]; then
+echo "even number $number is even"
 else 
-echo "not even"
+echo "even number $number is odd"
 fi

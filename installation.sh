@@ -10,6 +10,7 @@ fi
 validate (){
     if [ $1 -ne 0 ];then
 echo "$2 installation failed"
+exit 1
 else
 echo " $2 installed successfully"
 fi  
@@ -19,5 +20,5 @@ dnf install mysq -y
 validate $? "mysql"
 
 
-dnf install nginx -y
+dnf install mongodb-mong0sh -y
 validate $? "nginx"

@@ -3,3 +3,4 @@
 
 startdate=(date)
 
+echo  "$startdate"

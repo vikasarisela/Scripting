@@ -8,7 +8,7 @@ exit 1
 fi
 
 dnf install sql -y
-if [ $? -ne 0];then
+if [ $? -ne 0 ];then
 echo "installation failed"
 else
 echo "installed successfully"

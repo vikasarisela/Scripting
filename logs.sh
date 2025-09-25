@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logs_folder="/var/log/shellscriptlogs"
-scriptname=$(echo $0 | cut -d "." -f1)
+scriptname=$( echo $0 | cut -d "." -f1 )
 log_file=echo "$logs_folder/$scriptname.log"
 
 mkdir -p $logs_folder

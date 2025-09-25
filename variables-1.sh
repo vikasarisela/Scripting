@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-startdate=(date)
+startdate=$(date)
 
 echo  "$startdate"

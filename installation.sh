@@ -20,5 +20,5 @@ dnf install mysq -y
 validate $? "mysql"
 
 
-dnf install mongodb-mongosh -y
-validate $? "mongodb-mongosh"
+dnf install python3 -y
+validate $? "python3"

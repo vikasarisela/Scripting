@@ -1,6 +1,6 @@
 #!/bin/bash
 
-logs_folder="var/log/shellscriptlogs"
+logs_folder="/var/log/shellscriptlogs"
 scriptname=$($0 | cut -d "." -f1)
 log_file=echo "$logs_folder/$scriptname.log"
 

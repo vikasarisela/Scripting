@@ -1,6 +1,12 @@
 #!/bin/bash
 
 
-startdate=$(date)
+startdate=$(date +%s)
 
-echo  "$startdate"
+sleep 10
+
+enddate=$(date +%s)
+
+totaltime=$((enddate-startdate))
+
+echo "total time $totaltime"

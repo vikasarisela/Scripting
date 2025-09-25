@@ -19,5 +19,5 @@ dnf install mysq -y
 validate $? "mysql"
 
 
-dnf install mongodb-mong0sh -y
-validate $? "nginx"
+dnf install mongodb-mongosh -y
+validate $? "mongodb-mongosh"

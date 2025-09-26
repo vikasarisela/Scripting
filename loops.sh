@@ -25,12 +25,12 @@ fi
 
 for pacakage in $@
 do 
-dnf list installed $pacakage 
-if [ $? -ne 0 ]; then
-dnf install mysql -y
-validate $? "$pacakage"
-else
-echo "already installed $package"
+    dnf list installed $pacakage
+    if [ $? -ne 0 ]; then
+    dnf install mysql -y
+    validate $? "$pacakage"
+    else
+    echo "eady installed $package"
 done
 
 validate () {

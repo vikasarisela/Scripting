@@ -31,6 +31,7 @@ do
     validate $? "$pacakage"
     else
     echo "eady installed $package"
+    fi
 done
 
 validate () {

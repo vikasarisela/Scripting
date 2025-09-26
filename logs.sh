@@ -22,7 +22,7 @@ echo " $2 installed successfully"
 fi  
 }
 
-dnf install mysq -y &>>$log_file
+dnf install mysql -y &>>$log_file
 validate $? "mysql"
 
 

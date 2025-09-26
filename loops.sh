@@ -4,7 +4,7 @@
 
 
 
-User_ID=( id -u )
+User_ID=$(id -u)
 
 if [ User_ID -ne 0 ]; then
 echo "please run the script with root privligtes"
@@ -26,6 +26,7 @@ fi
 for pacakage in $@
 do 
     dnf list installed $pacakage
+    
     if [ $? -ne 0 ]; then
     dnf install mysql -y
     validate $? "$pacakage"

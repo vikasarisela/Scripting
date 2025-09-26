@@ -22,8 +22,10 @@ echo " $2 installed successfully"
 fi  
 }
 
-dnf install mysql -y &>>$log_file
+
+dnf install mysql -y &>>$log_file   #it throws some output 
 validate $? "mysql"
+
 
 
 dnf install python3 -y &>>$log_file
